@@ -1,0 +1,246 @@
+/*--------------
+   common css
+ -------------- */
+body{
+    background-color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 80%; 
+}
+.mid-content{
+    display: flex;
+    justify-content: center;
+}
+.radius{
+    border-radius: 10px;
+}
+/* header-menu css */
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+    color: #3A3A3A;
+}
+
+/* menu-bar css */
+
+.menu-bar ul{
+    display: flex; 
+}
+.menu-bar ul li{
+    list-style: none;
+    margin-right: 35px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px; 
+    color: #3A3A3A;   
+}
+/* header-banner css */
+.banner-item{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-item .banner-left{
+    padding: 35px;
+}
+.banner-item .banner-left h1{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+    color: #3A3A3A ;
+}
+.banner-item .banner-left p{
+    font-weight: 600;
+    font-size: 16px;
+    color:#3A3A3A ;
+    line-height: 24px;
+    margin-top: -10px;
+}
+.banner-button{
+    background-color:#E02C6D;
+    border-radius: 41px;
+    padding: 10px 24px;
+    border: none;
+    margin-top: 10px;
+}
+.banner-button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 8px;
+    background-color:#E02C6D;
+}
+
+.banner-item .banner-right{
+    padding: 40px;
+}
+.banner-item .banner-right img{
+    background-image: url(images/Circle\ design.svg);
+    padding: 30px;
+    background-repeat: no-repeat;
+}
+
+.header-site-link ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-site-link ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+.header-site-link ul li img{
+    padding: 30px;
+}
+.first-hr{
+    border: 1px solid #dae3ed;
+    width: 60%;
+}
+.second-hr{
+    border: 1px solid #dae3ed;
+    width: 80%;
+    margin-bottom: 30px;
+}
+/* --------------- */
+.popular-collection{
+    margin-top: 45px;
+}
+.popular-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    color: #3A3A3A;
+}
+.collections-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+#item-card{
+    background-color: #e0e0e0;
+}
+.collection-item{
+    margin: 10px;
+    width: 329px;
+    grid-gap: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.collection-item img{
+    margin: 10px 0;
+}
+.collection-item h1{
+    color:#3A3A3A;
+    text-align: left;
+    margin: 0 14px;
+}
+
+.rating{
+    display: flex;
+    text-align: left;
+    margin: 0 14px;
+}
+.rating-icon .fill{
+    color: #FB8200;
+}
+.rating-icon .empty{
+    color: #FB8200;
+}
+#price-p{
+    font-size: 24px;
+}
+.collection-item p{
+    color: #787885;
+    text-align: left;
+    margin: 5px 14px;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+.popular-a{
+    text-align: right;
+    margin: 35px;
+}
+.popular-a a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+    margin-right: 50px;
+
+}
+.info-section{
+    margin-bottom: 100px;
+}
+.info-details{
+    display: flex;
+    background-color: #fff;
+    padding: 100px;
+    align-items: center;
+}
+.info-right{
+    margin-left: 30px;
+}
+
+.info-right h1{
+    color: #0A0826;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 60px;
+    margin-left: 25px;
+}
+.info-right p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-left: 25px;
+}
+.info-right .info-btn{
+    padding: 10px 24px;
+}
+.info-right .info-btn a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #E02C6D;
+    color: #fff;
+}
+footer{
+    text-align: center;
+    background-color: #0A0826;
+    height:200px ;
+    margin: 0 -8px;
+}
+footer h1{
+    font-size: 35px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding-top: 15px;
+}
+footer p{
+    color: #D9DBE1;
+    font-size: 14px;
+}
+.footer-icon ul{
+    display: flex;
+    justify-content: center;
+    margin-left: -35px;
+}
+.footer-icon ul li{
+    list-style: none;
+}
+.footer-icon ul li a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 5px;
+}
